@@ -15,9 +15,6 @@ local BuildFunction = ReplicatedStorage:WaitForChild("Build")
 local DataStore = require(script:WaitForChild("DataStore"))
 local DistanceComparison = require(script:WaitForChild("DistanceComparison"))
 
-local TreeModel = ReplicatedStorage.Tree
-
-
 local BlockScale = 4
 
 local SpawnPoint
